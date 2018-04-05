@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div id="quizcontainer">
+    <h2 id="timer"></h2>
+    <h5 id="question"></h5>
+    <label><input type="radio"value="1" name="option" ><span id="opt1"></span></label><br>
+    <label><input type="radio" value="2" name="option" ><span id="opt2"></span></label><br>
+    <label><input type="radio" value="3" name="option" ><span id="opt3"></span></label><br>
+    <label><input type="radio" value="4" name="option" ><span id="opt4"></span></label>
+    <br><button onclick="next()" class="btn-info"> Next Question</button>
+  </div>
+  
+<div id="resultcontainer" style="display:none">
+<h1 id="score"></h1>
+</div>
+
+
+</body>
+<script src="app.js"></script> </html>
